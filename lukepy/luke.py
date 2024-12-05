@@ -1,5 +1,6 @@
 from random import random
 
+import numpy as np
 
 def random_list(length=1):
     """Create a list of random numbers.
@@ -22,3 +23,7 @@ def random_list(length=1):
     """
 
     return [random() for _ in range(length)]
+
+def random_arr(length=1):
+    """Returns a 1D numpy array with random numbers between 0 and 1."""
+    return np.random.rand(length)
