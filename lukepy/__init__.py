@@ -1,1 +1,1 @@
-from luke import random_list
+from lukepy.luke import random_list
